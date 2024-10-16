@@ -18,3 +18,5 @@ export const Button = ({ type, title, icon, variant }: ButtonProps) => {
     </button>
   );
 };
+
+export default Button;
