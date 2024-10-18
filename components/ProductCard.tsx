@@ -7,9 +7,9 @@ const ProductCard = ({ name, description, price, image }: ProductType) => {
       <Image
         src={image}
         alt={name}
-        width={400}
-        height={300}
-        className="w-full h-48 object-cover"
+        width={300}
+        height={600}
+        className="w-full h-96 object-contain"
       />
       <div className="p-6">
         <h3 className="bold-20 mb-2">{name}</h3>

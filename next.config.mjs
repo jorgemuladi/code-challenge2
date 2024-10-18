@@ -2,7 +2,6 @@
 const nextConfig = {
     images: {
         domains: ['randomuser.me'],
-        unoptimized: true,
       },
 };
 

@@ -9,7 +9,7 @@ const AboutHero = () => {
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Hilink is dedicated to transforming the way people experience outdoor
           adventures. Our mission is to connect nature enthusiasts with the
-          world's most breathtaking locations, making every journey safe,
+          worlds most breathtaking locations, making every journey safe,
           memorable, and accessible.
         </p>
       </div>

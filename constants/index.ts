@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
-    { href: '#features', key: 'how_hilink_work', label: 'How Hilink Work?' },
+    { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
     { href: '/products', key: 'products', label: 'Products' },
-    { href: '/teams', key: 'teams', label: 'Our Teams' },
-    { href: '/about', key: 'about', label: 'About Us' },
+    { href: '/teams', key: 'teams ', label: 'Our Teams ' },
+    { href: '/about', key: 'about_us', label: 'About Us' },
   ];
   
   // CAMP SECTION
@@ -115,24 +115,67 @@ export const SERVICES = [
     id: 1,
     name: "Trail Mapping",
     description: "Custom trail mapping and route planning services",
-    icon: "/service-mapping.svg"
+    icon: "/map.svg"
   },
   {
     id: 2,
     name: "Guided Adventures",
     description: "Expert-led group adventures to exotic locations",
-    icon: "/service-adventure.svg"
+    icon: "/calendar.svg"
   },
   {
     id: 3,
     name: "Equipment Rental",
     description: "High-quality outdoor equipment rental service",
-    icon: "/service-rental.svg"
+    icon: "/tech.svg"
   },
   {
     id: 4,
     name: "Safety Training",
     description: "Comprehensive safety and survival training courses",
-    icon: "/service-training.svg"
+    icon: "/location.svg"
   }
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Sarah Johnson",
+    role: "Adventure Enthusiast",
+    comment:
+      "Hilink has revolutionized my hiking experiences. The offline maps feature is a game-changer!",
+    avatar: "/avatar2.png",
+  },
+  {
+    id: 2,
+    name: "Mike Chen",
+    role: "Professional Climber",
+    comment:
+      "As a pro climber, I need reliable tools. Hilink's accuracy and user-friendly interface are unmatched.",
+    avatar: "/avatar1.png",
+  },
+  {
+    id: 3,
+    name: "Kanye West",
+    role: "Travel Blogger",
+    comment:
+      "I've used many hiking apps, but Hilink stands out with its comprehensive features and intuitive design.",
+    avatar: "/avatar3.png",
+  },
+  {
+    id: 4,
+    name: "James Arthur",
+    role: "Nature Photographer",
+    comment:
+      "Hilink helps me discover hidden gems for my photography. It's an essential tool in my adventures.",
+    avatar: "/person-2.png",
+  },
+  {
+    id: 5,
+    name: "Chelsea Olivia",
+    role: "Outdoor Educator",
+    comment:
+      "I recommend Hilink to all my students. It's not just an app; it's a reliable companion in the wilderness.",
+    avatar: "/person-3.png",
+  },
 ];
