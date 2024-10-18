@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const OurTeam = () => {
   return (
-    <section className="padding-container max-container py-16 bg-gray-10 my-10">
+    <section className="padding-container max-container py-16 bg-gray-10 mb-20">
       <h2 className="bold-40 mb-10 text-center">Meet Our Leadership</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <TeamMember

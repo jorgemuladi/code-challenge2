@@ -87,7 +87,7 @@ const Navbar = () => {
               { label: "How Hilink Work?", href: "#features" },
               { label: "Products", href: "/products" },
               { label: "Our Teams", href: "/teams" },
-              { label: "Contact Us", href: "/about" },
+              { label: "About", href: "/about" },
             ].map((link, index) => (
               <li key={index}>
                 <Link
