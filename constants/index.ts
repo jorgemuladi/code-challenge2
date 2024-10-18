@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
+    { href: '#features', key: 'how_hilink_work', label: 'How Hilink Work?' },
+    { href: '/products', key: 'products', label: 'Products' },
+    { href: '/teams', key: 'teams', label: 'Our Teams' },
+    { href: '/about', key: 'contact_us', label: 'Contact Us' },
   ];
   
   // CAMP SECTION
@@ -84,3 +84,55 @@ export const NAV_LINKS = [
       '/wordpress.svg',
     ],
   };
+
+
+export const PRODUCTS = [
+  {
+    id: 1,
+    name: "Hilink Pro GPS",
+    description: "Advanced GPS device for precise navigation",
+    price: 299.99,
+    image: "/product-gps.jpg"
+  },
+  {
+    id: 2,
+    name: "Adventure Backpack",
+    description: "Durable and comfortable backpack for long hikes",
+    price: 129.99,
+    image: "/product-backpack.jpg"
+  },
+  {
+    id: 3,
+    name: "Hilink Water Purifier",
+    description: "Portable water purifier for safe drinking anywhere",
+    price: 79.99,
+    image: "/product-purifier.jpg"
+  }
+];
+
+export const SERVICES = [
+  {
+    id: 1,
+    name: "Trail Mapping",
+    description: "Custom trail mapping and route planning services",
+    icon: "/service-mapping.svg"
+  },
+  {
+    id: 2,
+    name: "Guided Adventures",
+    description: "Expert-led group adventures to exotic locations",
+    icon: "/service-adventure.svg"
+  },
+  {
+    id: 3,
+    name: "Equipment Rental",
+    description: "High-quality outdoor equipment rental service",
+    icon: "/service-rental.svg"
+  },
+  {
+    id: 4,
+    name: "Safety Training",
+    description: "Comprehensive safety and survival training courses",
+    icon: "/service-training.svg"
+  }
+];
